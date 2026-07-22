@@ -6,6 +6,8 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        @vite(['resources/css/app.scss', 'resources/js/app.js'])
+
         @fonts
 
         <!-- Styles / Scripts -->
