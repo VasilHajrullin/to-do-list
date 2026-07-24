@@ -15,3 +15,15 @@ Route::get('tasks', function () {
 Route::get('logout', function () {
     return view('habits.index');
 })->name('logout');
+
+Route::get('/', function () {
+    return view('welcome');
+})->name('welcome');
+
+Route::get('login', function () {
+    return view('habits.index');
+})->name('login');
+
+Route::get('register', function () {
+    return view('habits.index');
+})->name('register');
